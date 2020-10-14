@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
   branch: master
+  repo: dwmcnelis/site
+  base_url: http://167.71.178.225
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
