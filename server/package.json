@@ -1,0 +1,25 @@
+{
+	"name": "netlify-github",
+	"version": "1.0.0",
+	"description": "Netlify CMS/GitHub Oauth2 & Deployment",
+	"main": "index.js",
+	"scripts": {
+		"start": "node src/index.js"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"axios": "^0.20.0"
+	},
+	"engines": {
+		"node": "12.x"
+	},
+	"license": "MIT",
+	"keywords": [
+		"netlify",
+		"cms",
+		"oauth2"
+	],
+	"repository": {
+		"url": "github://dwmcnelis/site"
+	}
+}
