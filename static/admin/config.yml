@@ -2,7 +2,7 @@ backend:
   name: github
   branch: master
   repo: dwmcnelis/site
-  base_url: http://167.71.178.225
+  base_url: https://formatlibrary.xyz
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
